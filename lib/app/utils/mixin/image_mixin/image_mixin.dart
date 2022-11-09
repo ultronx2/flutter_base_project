@@ -2,15 +2,15 @@ import 'dart:io';
 
 import 'package:flutter/cupertino.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:pothole_detector/app/common_widget/text_widget.dart';
-import 'package:pothole_detector/app/res/app_size_config.dart';
-import 'package:pothole_detector/app/res/colors.dart';
-import 'package:pothole_detector/app/res/font_family.dart';
-import 'package:pothole_detector/app/res/strings.dart';
-import 'package:pothole_detector/app/services/navigator_service.dart';
-import 'package:pothole_detector/app/utils/debug_utils/debug_utils.dart';
-import 'package:pothole_detector/app/utils/mixin/permission/permission_util.dart';
 import 'package:permission_handler/permission_handler.dart';
+import 'package:project_name/app/common_widget/text_widget.dart';
+import 'package:project_name/app/res/app_size_config.dart';
+import 'package:project_name/app/res/colors.dart';
+import 'package:project_name/app/res/font_family.dart';
+import 'package:project_name/app/res/strings.dart';
+import 'package:project_name/app/services/navigator_service.dart';
+import 'package:project_name/app/utils/debug_utils/debug_utils.dart';
+import 'package:project_name/app/utils/mixin/permission/permission_util.dart';
 
 mixin ImageMixin {
   final ImagePicker _imagePicker = ImagePicker();

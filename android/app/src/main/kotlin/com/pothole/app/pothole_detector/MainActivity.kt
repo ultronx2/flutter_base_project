@@ -1,4 +1,4 @@
-package com.pothole.app.pothole_detector
+package com.pothole.app.project_name
 
 import io.flutter.embedding.android.FlutterActivity
 

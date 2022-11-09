@@ -3,9 +3,9 @@ import 'dart:io';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:permission_handler/permission_handler.dart';
-import 'package:pothole_detector/app/res/app_size_config.dart';
-import 'package:pothole_detector/app/res/colors.dart';
-import 'package:pothole_detector/app/res/strings.dart';
+import 'package:project_name/app/res/app_size_config.dart';
+import 'package:project_name/app/res/colors.dart';
+import 'package:project_name/app/res/strings.dart';
 
 class PermissionUtil {
   PermissionUtil._();

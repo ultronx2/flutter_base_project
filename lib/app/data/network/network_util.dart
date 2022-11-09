@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:pothole_detector/app/data/network/api_msg_strings.dart';
+import 'package:project_name/app/data/network/api_msg_strings.dart';
 
 class NetworkUtil {
   NetworkUtil._();

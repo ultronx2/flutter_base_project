@@ -1,4 +1,4 @@
-import 'package:pothole_detector/app/data/network/api_msg_strings.dart';
+import 'package:project_name/app/data/network/api_msg_strings.dart';
 
 class AppException implements Exception {
   AppException([this._message, this._prefix]);

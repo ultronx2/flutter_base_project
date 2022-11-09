@@ -1,9 +1,9 @@
 import 'dart:async';
 
 import 'package:flutter/widgets.dart';
-import 'package:pothole_detector/app/data/shared_pref/preferences.dart';
-import 'package:pothole_detector/app/screens/auth/login/login_screen.dart';
-import 'package:pothole_detector/app/services/navigator_service.dart';
+import 'package:project_name/app/data/shared_pref/preferences.dart';
+import 'package:project_name/app/screens/auth/login/login_screen.dart';
+import 'package:project_name/app/services/navigator_service.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 //This class is used to handle sharedPreference

@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.pothole.app.pothole_detector">
+    package="com.pothole.app.project_name">
    <application
-        android:label="pothole_detector"
+        android:label="project_name"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

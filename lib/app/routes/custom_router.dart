@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pothole_detector/app/screens/auth/login/login_screen.dart';
+import 'package:project_name/app/screens/auth/login/login_screen.dart';
 
 class CustomRouter {
   static Route<dynamic> generateRoute(RouteSettings settings) {

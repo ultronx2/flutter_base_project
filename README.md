@@ -1,4 +1,4 @@
-# pothole_detector
+# project_name
 
 A new Flutter project.
 

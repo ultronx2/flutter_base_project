@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:pothole_detector/app/common_widget/text_widget.dart';
-import 'package:pothole_detector/app/res/app_size_config.dart';
+import 'package:project_name/app/common_widget/text_widget.dart';
+import 'package:project_name/app/res/app_size_config.dart';
 
 class CheckBoxWidget extends StatefulWidget {
   const CheckBoxWidget(

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:pothole_detector/app/data/network/api_msg_strings.dart';
-import 'package:pothole_detector/app/res/strings.dart';
+import 'package:project_name/app/data/network/api_msg_strings.dart';
+import 'package:project_name/app/res/strings.dart';
 
 class CustomErrorWidget extends StatelessWidget {
   const CustomErrorWidget(

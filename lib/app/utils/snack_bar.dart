@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:pothole_detector/app/common_widget/text_widget.dart';
-import 'package:pothole_detector/app/res/app_size_config.dart';
-import 'package:pothole_detector/app/res/font_family.dart';
-import 'package:pothole_detector/app/services/navigator_service.dart';
+import 'package:project_name/app/common_widget/text_widget.dart';
+import 'package:project_name/app/res/app_size_config.dart';
+import 'package:project_name/app/res/font_family.dart';
+import 'package:project_name/app/services/navigator_service.dart';
 
 showSnackBar(String data, {BuildContext? context, Duration? duration}) {
   ScaffoldMessenger.of(

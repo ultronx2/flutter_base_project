@@ -6,16 +6,16 @@ import 'dart:io';
 
 import 'package:flutter/foundation.dart';
 import 'package:http/http.dart' as http;
-import 'package:pothole_detector/app/data/modified_network/api_response.dart';
-import 'package:pothole_detector/app/data/network/api_config.dart';
-import 'package:pothole_detector/app/data/network/api_msg_strings.dart';
-import 'package:pothole_detector/app/data/network/app_exception.dart';
-import 'package:pothole_detector/app/data/network/connectivity.dart';
-import 'package:pothole_detector/app/data/shared_pref/shared_preference_helper.dart';
-import 'package:pothole_detector/app/res/strings.dart';
-import 'package:pothole_detector/app/services/navigator_service.dart';
-import 'package:pothole_detector/app/utils/debug_utils/debug_utils.dart';
-import 'package:pothole_detector/app/utils/mixin/permission/permission_util.dart';
+import 'package:project_name/app/data/modified_network/api_response.dart';
+import 'package:project_name/app/data/network/api_config.dart';
+import 'package:project_name/app/data/network/api_msg_strings.dart';
+import 'package:project_name/app/data/network/app_exception.dart';
+import 'package:project_name/app/data/network/connectivity.dart';
+import 'package:project_name/app/data/shared_pref/shared_preference_helper.dart';
+import 'package:project_name/app/res/strings.dart';
+import 'package:project_name/app/services/navigator_service.dart';
+import 'package:project_name/app/utils/debug_utils/debug_utils.dart';
+import 'package:project_name/app/utils/mixin/permission/permission_util.dart';
 
 class ApiBaseHelper {
   ApiBaseHelper._internal();
