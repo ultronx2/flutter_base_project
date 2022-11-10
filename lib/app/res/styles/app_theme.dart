@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:project_name/app/res/colors.dart';
+import 'package:project_name/app/res/colors/colors.dart';
 
 class AppTheme with ChangeNotifier {
   ThemeMode themeMode = ThemeMode.system;

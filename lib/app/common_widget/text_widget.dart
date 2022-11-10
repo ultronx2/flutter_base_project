@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:project_name/app/res/font_family.dart';
+import 'package:project_name/app/res/fonts/font_family.dart';
 
 class TextWidget extends StatelessWidget {
   const TextWidget(

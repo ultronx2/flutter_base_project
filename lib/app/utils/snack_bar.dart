@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:project_name/app/common_widget/text_widget.dart';
-import 'package:project_name/app/res/app_size_config.dart';
-import 'package:project_name/app/res/font_family.dart';
+import 'package:project_name/app/res/dimens/app_size_config.dart';
+import 'package:project_name/app/res/fonts/font_family.dart';
 import 'package:project_name/app/services/navigator_service.dart';
 
 showSnackBar(String data, {BuildContext? context, Duration? duration}) {

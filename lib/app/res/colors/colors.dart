@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:project_name/app/res/hex_color.dart';
+import 'package:project_name/app/res/colors/hex_color.dart';
 
 class AppColors {
   static MaterialColor materialColorPrimarySwatch =

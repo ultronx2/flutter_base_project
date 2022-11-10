@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:project_name/app/common_widget/text_widget.dart';
-import 'package:project_name/app/res/app_size_config.dart';
+import 'package:project_name/app/res/dimens/app_size_config.dart';
 
 class CustomTextField extends StatefulWidget {
   const CustomTextField(

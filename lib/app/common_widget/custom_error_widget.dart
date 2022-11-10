@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:project_name/app/data/network/api_msg_strings.dart';
-import 'package:project_name/app/res/strings.dart';
+import 'package:project_name/app/res/strings/strings.dart';
 
 class CustomErrorWidget extends StatelessWidget {
   const CustomErrorWidget(

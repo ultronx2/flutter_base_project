@@ -5,7 +5,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:permission_handler/permission_handler.dart';
-import 'package:project_name/app/res/strings.dart';
+import 'package:project_name/app/res/strings/strings.dart';
 import 'package:project_name/app/utils/mixin/permission/permission_util.dart';
 
 extension FileExtension on String {
