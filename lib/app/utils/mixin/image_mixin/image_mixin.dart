@@ -4,7 +4,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:project_name/app/common_widget/text_widget.dart';
-import 'package:project_name/app/res/colors.dart';
+import 'package:project_name/app/res/colors/colors.dart';
 import 'package:project_name/app/res/dimens/app_size_config.dart';
 import 'package:project_name/app/res/fonts/font_family.dart';
 import 'package:project_name/app/res/strings/strings.dart';

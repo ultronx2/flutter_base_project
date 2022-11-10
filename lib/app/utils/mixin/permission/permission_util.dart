@@ -3,7 +3,6 @@ import 'dart:io';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:permission_handler/permission_handler.dart';
-import 'package:project_name/app/res/colors.dart';
 import 'package:project_name/app/res/colors/colors.dart';
 import 'package:project_name/app/res/dimens/app_size_config.dart';
 import 'package:project_name/app/res/strings/strings.dart';
