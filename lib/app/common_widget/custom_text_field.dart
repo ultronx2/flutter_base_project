@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:project_name/app/common_widget/text_widget.dart';
-import 'package:project_name/app/res/dimens/app_size_config.dart';
+import 'package:project_name/app/res/dimens/size_config.dart';
 
 class CustomTextField extends StatefulWidget {
   const CustomTextField(
@@ -60,8 +60,7 @@ class _CustomTextFieldState extends State<CustomTextField> {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding:
-          EdgeInsets.only(bottom: widget.bottomPadding ?? SizeConfig.size_18),
+      padding: EdgeInsets.only(bottom: widget.bottomPadding ?? 18.h),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -97,16 +96,16 @@ class _CustomTextFieldState extends State<CustomTextField> {
                 errorMaxLines: 2,
                 errorStyle: const TextStyle(color: Colors.redAccent),
                 prefixIconConstraints: BoxConstraints(
-                    maxHeight: SizeConfig.size_20,
-                    maxWidth: SizeConfig.size_34,
-                    minHeight: SizeConfig.size_20,
-                    minWidth: SizeConfig.size_34),
+                    maxHeight: 20.h,
+                    maxWidth: 34.w,
+                    minHeight: 20.h,
+                    minWidth: 34.w),
                 prefixIcon: widget.leading,
                 suffixIconConstraints: BoxConstraints(
-                    maxHeight: SizeConfig.size_20,
-                    maxWidth: SizeConfig.size_34,
-                    minHeight: SizeConfig.size_20,
-                    minWidth: SizeConfig.size_34),
+                    maxHeight: 20.h,
+                    maxWidth: 34.w,
+                    minHeight: 20.h,
+                    minWidth: 34.w),
                 suffixIcon: widget.showVisibilityIcon
                     ? IconButton(
                         icon: Icon(
@@ -121,7 +120,7 @@ class _CustomTextFieldState extends State<CustomTextField> {
                             _passwordVisible = !_passwordVisible;
                           });
                         },
-                        iconSize: SizeConfig.size_20,
+                        iconSize: 20.r,
                         padding: EdgeInsets.zero,
                       )
                     : null,

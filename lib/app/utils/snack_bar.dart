@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:project_name/app/common_widget/text_widget.dart';
-import 'package:project_name/app/res/dimens/app_size_config.dart';
+import 'package:project_name/app/res/dimens/size_config.dart';
 import 'package:project_name/app/res/fonts/font_family.dart';
 import 'package:project_name/app/services/navigator_service.dart';
 
@@ -13,13 +13,12 @@ showSnackBar(String data, {BuildContext? context, Duration? duration}) {
       .showSnackBar(
     SnackBar(
       backgroundColor: Colors.white,
-      margin: EdgeInsets.symmetric(
-          vertical: SizeConfig.size_4, horizontal: SizeConfig.size_4),
+      margin: EdgeInsets.symmetric(vertical: 4.h, horizontal: 4.w),
       elevation: 5,
       content: TextWidget(
         text: data,
         color: Colors.white,
-        textSize: SizeConfig.font_14,
+        textSize: 14.sp,
         fontWeight: FontStyles.medium,
       ),
       duration: duration ?? const Duration(seconds: 2),

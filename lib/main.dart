@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:project_name/app/res/dimens/size_config.dart';
 import 'package:project_name/app/screens/auth/login/login_screen.dart';
 
 void main() {
@@ -16,7 +17,11 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const LoginScreen(),
+      home: SizeConfigWidget(
+        key: UniqueKey(),
+        draftSize: const Size(375, 812),
+        child: const LoginScreen(),
+      ),
     );
   }
 }
