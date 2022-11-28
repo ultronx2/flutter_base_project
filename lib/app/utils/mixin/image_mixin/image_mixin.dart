@@ -4,8 +4,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:project_name/app/common_widget/text_widget.dart';
-import 'package:project_name/app/res/colors.dart';
-import 'package:project_name/app/res/dimens/app_size_config.dart';
+import 'package:project_name/app/res/colors/colors.dart';
+import 'package:project_name/app/res/dimens/size_config.dart';
 import 'package:project_name/app/res/fonts/font_family.dart';
 import 'package:project_name/app/res/strings/strings.dart';
 import 'package:project_name/app/services/navigator_service.dart';
@@ -26,13 +26,13 @@ mixin ImageMixin {
           title: TextWidget(
             text: AppStrings.txtSelectPhoto,
             textAlign: TextAlign.center,
-            textSize: SizeConfig.font_18,
+            textSize: 18.sp,
             color: AppColors.colorPrimary,
             fontWeight: FontStyles.bold,
           ),
           message: TextWidget(
             text: AppStrings.txtPleaseSelectImage,
-            textSize: SizeConfig.font_14,
+            textSize: 14.sp,
             textAlign: TextAlign.center,
             color: AppColors.colorPrimary,
             fontWeight: FontStyles.regular,
@@ -41,7 +41,7 @@ mixin ImageMixin {
             CupertinoActionSheetAction(
               child: TextWidget(
                 text: AppStrings.txtCamera,
-                textSize: SizeConfig.font_18,
+                textSize: 18.sp,
                 textAlign: TextAlign.center,
                 color: AppColors.colorPrimary,
                 fontWeight: FontStyles.regular,
@@ -63,7 +63,7 @@ mixin ImageMixin {
             CupertinoActionSheetAction(
               child: TextWidget(
                 text: AppStrings.txtGallery,
-                textSize: SizeConfig.font_18,
+                textSize: 18.sp,
                 textAlign: TextAlign.center,
                 color: AppColors.colorPrimary,
                 fontWeight: FontStyles.regular,
@@ -90,7 +90,7 @@ mixin ImageMixin {
             isDefaultAction: true,
             child: TextWidget(
               text: AppStrings.txtCancel,
-              textSize: SizeConfig.font_18,
+              textSize: 18.sp,
               textAlign: TextAlign.center,
               color: AppColors.colorPrimary,
               fontWeight: FontStyles.medium,

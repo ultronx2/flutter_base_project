@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:project_name/app/res/dimens/app_size_config.dart';
+import 'package:project_name/app/res/dimens/size_config.dart';
 
 class CustomButton extends StatefulWidget {
   const CustomButton(
@@ -25,16 +25,14 @@ class _CustomButtonState extends State<CustomButton> {
         onPressed: widget.isLoading ? () {} : widget.onPressed,
         style: ElevatedButton.styleFrom(
             primary: widget.color,
-            minimumSize: Size(double.infinity, SizeConfig.size_50),
+            minimumSize: Size(double.infinity, 50.h),
             shape: RoundedRectangleBorder(
-                borderRadius:
-                    BorderRadius.circular(SizeConfig.buttonBorderRadius))),
+                borderRadius: BorderRadius.circular(8.r))),
         child: widget.isLoading
             ? const CircularProgressIndicator()
             : Text(
                 widget.label,
-                style: TextStyle(
-                    color: Colors.white, fontSize: SizeConfig.font_16),
+                style: TextStyle(color: Colors.white, fontSize: 16.sp),
               ));
   }
 }

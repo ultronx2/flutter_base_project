@@ -3,9 +3,8 @@ import 'dart:io';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:permission_handler/permission_handler.dart';
-import 'package:project_name/app/res/colors.dart';
 import 'package:project_name/app/res/colors/colors.dart';
-import 'package:project_name/app/res/dimens/app_size_config.dart';
+import 'package:project_name/app/res/dimens/size_config.dart';
 import 'package:project_name/app/res/strings/strings.dart';
 
 class PermissionUtil {
@@ -102,10 +101,8 @@ class PermissionUtil {
                           TextButton(
                               style: TextButton.styleFrom(
                                 foregroundColor: AppColors.colorPrimary,
-                                minimumSize: Size(
-                                    SizeConfig.size_85, SizeConfig.size_36),
-                                padding: EdgeInsets.symmetric(
-                                    horizontal: SizeConfig.size_16),
+                                minimumSize: Size(85.w, 36.h),
+                                padding: EdgeInsets.symmetric(horizontal: 16.w),
                               ),
                               onPressed: onNagativeClick ??
                                   () {
@@ -116,10 +113,8 @@ class PermissionUtil {
                         TextButton(
                             style: TextButton.styleFrom(
                               foregroundColor: AppColors.colorPrimary,
-                              minimumSize:
-                                  Size(SizeConfig.size_85, SizeConfig.size_36),
-                              padding: EdgeInsets.symmetric(
-                                  horizontal: SizeConfig.size_16),
+                              minimumSize: Size(85.w, 36.h),
+                              padding: EdgeInsets.symmetric(horizontal: 16.w),
                             ),
                             onPressed: onPositiveClick ??
                                 () {

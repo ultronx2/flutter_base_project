@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:project_name/app/res/dimens/app_size_config.dart';
+import 'package:project_name/app/res/dimens/size_config.dart';
 import 'package:project_name/app/res/fonts/font_family.dart';
 
 class CustomAppBar extends StatelessWidget with PreferredSizeWidget {
@@ -15,9 +15,7 @@ class CustomAppBar extends StatelessWidget with PreferredSizeWidget {
     return AppBar(
       title: Text(title),
       titleTextStyle: TextStyle(
-          color: Colors.white,
-          fontSize: SizeConfig.font_16,
-          fontWeight: FontStyles.medium),
+          color: Colors.white, fontSize: 16.sp, fontWeight: FontStyles.medium),
       leading: leading,
       surfaceTintColor: Colors.white,
       centerTitle: true,
@@ -26,5 +24,5 @@ class CustomAppBar extends StatelessWidget with PreferredSizeWidget {
   }
 
   @override
-  Size get preferredSize => Size.fromHeight(SizeConfig.size_50);
+  Size get preferredSize => Size.fromHeight(50.h);
 }

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:project_name/app/common_widget/text_widget.dart';
-import 'package:project_name/app/res/dimens/app_size_config.dart';
+import 'package:project_name/app/res/dimens/size_config.dart';
 
 class CheckBoxWidget extends StatefulWidget {
   const CheckBoxWidget(
@@ -33,17 +33,17 @@ class _CheckBoxWidgetState extends State<CheckBoxWidget> {
         child: Row(
           children: [
             SizedBox(
-              height: SizeConfig.size_20,
-              width: SizeConfig.size_20,
+              height: 20.r,
+              width: 20.r,
               child: Checkbox(
                 value: widget.value,
-                splashRadius: SizeConfig.size_10,
+                splashRadius: 10.r,
                 onChanged: widget.onChange,
                 // materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
               ),
             ),
             SizedBox(
-              width: SizeConfig.size_10,
+              width: 10.w,
             ),
             if (widget.label != null)
               Expanded(
