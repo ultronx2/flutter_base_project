@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:project_name/app/res/dimens/size_config.dart';
 import 'package:project_name/app/res/fonts/font_family.dart';
+import 'package:project_name/app/res/size/size_config.dart';
 
 class CustomAppBar extends StatelessWidget with PreferredSizeWidget {
   const CustomAppBar(

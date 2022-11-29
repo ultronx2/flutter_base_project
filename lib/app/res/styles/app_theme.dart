@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:project_name/app/res/colors/colors.dart';
 
 class AppTheme with ChangeNotifier {
-  ThemeMode themeMode = ThemeMode.system;
+  ThemeMode _themeMode = ThemeMode.system;
 
-  ThemeMode get currentThemeMode => themeMode;
+  ThemeMode get themeMode => _themeMode;
 
   static ThemeData lightTheme(BuildContext context) {
     return ThemeData(
@@ -116,17 +116,17 @@ class AppTheme with ChangeNotifier {
   }
 
   void setSystemDefault() {
-    themeMode = ThemeMode.system;
+    _themeMode = ThemeMode.system;
     notifyListeners();
   }
 
   void setDarkMode() {
-    themeMode = ThemeMode.dark;
+    _themeMode = ThemeMode.dark;
     notifyListeners();
   }
 
   void setLightMode() {
-    themeMode = ThemeMode.light;
+    _themeMode = ThemeMode.light;
     notifyListeners();
   }
 }

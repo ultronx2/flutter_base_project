@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 
-class LoginScreen extends StatefulWidget {
-  const LoginScreen({Key? key}) : super(key: key);
-  static const String id = '/loginScreen';
+class SplashScreen extends StatefulWidget {
+  const SplashScreen({Key? key}) : super(key: key);
+  static const String id = '/SplashScreen';
 
   @override
-  State<LoginScreen> createState() => _LoginScreenState();
+  State<SplashScreen> createState() => _SplashScreenState();
 }
 
-class _LoginScreenState extends State<LoginScreen> {
+class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Container(

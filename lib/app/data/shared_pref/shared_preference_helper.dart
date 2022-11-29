@@ -261,7 +261,7 @@ class SharedPreferenceHelper {
     await clearPreference();
     await Navigator.pushNamedAndRemoveUntil(
         context ?? NavigationService.navigatorKey.currentContext!,
-        LoginScreen.id,
+        SplashScreen.id,
         (route) => false);
   }
 }
