@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:project_name/app/res/dimens/size_config.dart';
+import 'package:project_name/app/res/size/size_config.dart';
+import 'package:project_name/app/res/strings/strings.dart';
+import 'package:project_name/app/res/styles/app_theme.dart';
+import 'package:project_name/app/routes/custom_router.dart';
 import 'package:project_name/app/screens/auth/login/login_screen.dart';
 
 void main() {
@@ -9,19 +12,19 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: SizeConfigWidget(
-        key: UniqueKey(),
-        draftSize: const Size(375, 812),
-        child: const LoginScreen(),
-      ),
-    );
+        title: AppStrings.appName,
+        theme: AppTheme.lightTheme(context),
+        darkTheme: AppTheme.darkTheme(context),
+        themeMode: appTheme.themeMode,
+        onGenerateRoute: CustomRouter.generateRoute,
+        home: const SplashScreen(),
+        builder: (context, child) {
+          SizeConfig.initialize(
+              context: context, draftWidth: 375, draftHeight: 812);
+          return child!;
+        });
   }
 }

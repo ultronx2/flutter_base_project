@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:project_name/app/common_widget/text_widget.dart';
-import 'package:project_name/app/res/dimens/size_config.dart';
+import 'package:project_name/app/res/size/size_config.dart';
 
 class CheckBoxWidget extends StatefulWidget {
   const CheckBoxWidget(

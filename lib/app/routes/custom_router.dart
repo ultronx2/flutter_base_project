@@ -4,9 +4,9 @@ import 'package:project_name/app/screens/auth/login/login_screen.dart';
 class CustomRouter {
   static Route<dynamic> generateRoute(RouteSettings settings) {
     switch (settings.name) {
-      case LoginScreen.id:
+      case SplashScreen.id:
         return MaterialPageRoute(
-            settings: settings, builder: (_) => const LoginScreen());
+            settings: settings, builder: (_) => const SplashScreen());
 
       default:
         return MaterialPageRoute(

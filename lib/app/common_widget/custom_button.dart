@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:project_name/app/res/dimens/size_config.dart';
+import 'package:project_name/app/res/size/size_config.dart';
 
 class CustomButton extends StatefulWidget {
   const CustomButton(
