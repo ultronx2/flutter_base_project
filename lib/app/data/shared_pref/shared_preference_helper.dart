@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/widgets.dart';
 import 'package:project_name/app/data/shared_pref/preferences.dart';
-import 'package:project_name/app/screens/auth/login/login_screen.dart';
+import 'package:project_name/app/screens/auth/pages/login_screen.dart';
 import 'package:project_name/app/services/navigator_service.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -261,7 +261,7 @@ class SharedPreferenceHelper {
     await clearPreference();
     await Navigator.pushNamedAndRemoveUntil(
         context ?? NavigationService.navigatorKey.currentContext!,
-        SplashScreen.id,
+        LoginScreen.id,
         (route) => false);
   }
 }
